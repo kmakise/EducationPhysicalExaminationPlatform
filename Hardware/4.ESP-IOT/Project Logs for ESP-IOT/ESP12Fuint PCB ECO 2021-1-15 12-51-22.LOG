@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=RSV Pin=P5-14
+Removed Pin From Net: NetName=RSV Pin=P6-2
+Added Pin To Net: NetName=RSV1 Pin=P5-14
+Added Pin To Net: NetName=RSV1 Pin=P6-2
+Added Net: Name=RSV1

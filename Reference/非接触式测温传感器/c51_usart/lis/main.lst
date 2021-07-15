@@ -1,0 +1,78 @@
+C51 COMPILER V7.08   MAIN                                                                  11/16/2015 09:25:21 PAGE 1   
+
+
+C51 COMPILER V7.08, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN ..\output\main.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE main.c BROWSE INCDIR(..\Peripherals\inc\) DEBUG OBJECTEXTEND PRINT(..\lis\m
+                    -ain.lst) TABS(2) OBJECT(..\output\main.obj)
+
+line level    source
+
+   1          #include <reg52.h>
+   2          #include "usart.h"
+   3          #include "iic.h"  
+   4          /*
+   5          Keil:uVision2
+   6          MCU:STC90C516RD+
+   7          硬件接法：
+   8          GY-MCU90615---STM32
+   9          1、GY-MCU90615_RX---STM32_TX,STM32复位将发送A5 45 EA给模块
+  10          2、STM32_TX---FT232,STM32将数据上传给上位机
+  11          3、GY-MCU90615_TX---STM32_RX，接收模块温度数据
+  12          软件说明:
+  13          该程序采用串口方式获取模块角度数据，波特率9600
+  14          所以得用上位机先将模块串口设置成9600，然后再进行以上操作：
+  15          指令:A5 AE 53,模块需复位生效
+  16          
+  17          注：中断函数位于stc_it.c
+  18          联系方式：
+  19          http://shop62474960.taobao.com/?spm=a230r.7195193.1997079397.2.9qa3Ky&v=1
+  20          */
+  21          void send_com(u8 datas)
+  22          {
+  23   1        u8 bytes[3]={0};
+  24   1        bytes[0]=0xa5;
+  25   1        bytes[1]=datas;//功能字节
+  26   1        USART_Send(bytes,3);//发送帧头、功能字节、校验和
+  27   1      }
+  28          int main(void)
+  29          {
+  30   1        float TO=0,TA=0;
+  31   1          u8 sum=0,i=0;
+  32   1        int datas[2]={0};
+  33   1        Usart_Int(9600);
+  34   1        send_com(0x45);//发送读方位角指令
+  35   1        while(1)
+  36   1        {
+  37   2          if(Receive_ok)//串口接收完毕
+  38   2          {
+  39   3            for(sum=0,i=0;i<(TEMP_data[3]+4);i++)//TEMP_data[3]=4
+  40   3            sum+=TEMP_data[i];
+  41   3            if(sum==TEMP_data[i])//校验和判断
+  42   3            {
+  43   4              TO=(float)((TEMP_data[4]<<8)|TEMP_data[5])/100;//得到真实温度
+  44   4              datas[0]=(TEMP_data[4]<<8)|TEMP_data[5];//放大100倍的物体温度
+  45   4              TA=(float)((TEMP_data[6]<<8)|TEMP_data[7])/100;//得到真实温度
+  46   4              datas[1]=(TEMP_data[6]<<8)|TEMP_data[7];//放大100倍的环境温度
+  47   4              send_out(datas,2,0x45);//上传给上位机
+  48   4            }
+  49   3            Receive_ok=0;//处理数据完毕标志
+  50   3          }
+  51   2        }
+  52   1      }
+
+
+C51 COMPILER V7.08   MAIN                                                                  11/16/2015 09:25:21 PAGE 2   
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    236    ----
+   CONSTANT SIZE    =      7    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      18
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

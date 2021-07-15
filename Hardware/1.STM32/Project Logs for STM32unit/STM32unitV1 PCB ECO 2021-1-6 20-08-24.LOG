@@ -1,0 +1,15 @@
+Added Component: Designator=SD1(SDCARD-M)
+Added Pin To Net: NetName=PC10 Pin=SD1-1
+Added Pin To Net: NetName=PC11 Pin=SD1-2
+Added Pin To Net: NetName=PD2 Pin=SD1-3
+Added Pin To Net: NetName=VCC_3V3 Pin=SD1-4
+Added Pin To Net: NetName=PC12 Pin=SD1-5
+Added Pin To Net: NetName=GND Pin=SD1-6
+Added Pin To Net: NetName=PC8 Pin=SD1-7
+Added Pin To Net: NetName=PC9 Pin=SD1-8
+Added Pin To Net: NetName=NetR30_1 Pin=SD1-9
+Added Pin To Net: NetName=GND Pin=SD1-10
+Added Pin To Net: NetName=GND Pin=SD1-11
+Added Pin To Net: NetName=GND Pin=SD1-12
+Added Pin To Net: NetName=GND Pin=SD1-13
+Added Member To Class: ClassName=U_4 Member=Component SD1 SDCARD-M

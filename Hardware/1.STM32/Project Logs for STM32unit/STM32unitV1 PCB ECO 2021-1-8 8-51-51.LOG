@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=+3.3V Pin=R8-1
+Added Pin To Net: NetName=VCC_3V3_MCU Pin=R8-1

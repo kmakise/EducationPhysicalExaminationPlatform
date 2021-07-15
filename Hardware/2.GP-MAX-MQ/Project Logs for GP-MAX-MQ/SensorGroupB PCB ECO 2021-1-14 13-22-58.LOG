@@ -1,0 +1,27 @@
+Added Component: Designator=LED1(0603-led)
+Added Component: Designator=LED2(0603-led)
+Added Component: Designator=LED3(0603-led)
+Added Component: Designator=R1(0603)
+Added Component: Designator=R2(0603)
+Added Component: Designator=R3(0603)
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=GND Pin=LED2-2
+Added Pin To Net: NetName=GND Pin=LED3-2
+Added Pin To Net: NetName=VIN Pin=R1-2
+Added Pin To Net: NetName=VIN Pin=R2-2
+Added Pin To Net: NetName=VIN Pin=R3-2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R1-1
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=R2-1
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-1
+Added Pin To Net: NetName=NetLED3_1 Pin=R3-1
+Added Net: Name=NetLED3_1
+Added Member To Class: ClassName=GPMAXMQ Member=Component LED1 LED3
+Added Member To Class: ClassName=GPMAXMQ Member=Component LED2 LED3
+Added Member To Class: ClassName=GPMAXMQ Member=Component LED3
+Added Member To Class: ClassName=GPMAXMQ Member=Component R1 10K
+Added Member To Class: ClassName=GPMAXMQ Member=Component R2 10K
+Added Member To Class: ClassName=GPMAXMQ Member=Component R3 10K

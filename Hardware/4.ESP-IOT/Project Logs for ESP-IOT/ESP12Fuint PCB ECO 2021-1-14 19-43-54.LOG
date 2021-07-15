@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=VCC_5V Pin=C14-2
+Removed Member From Class: ClassName=ESP_IOT Member=C14

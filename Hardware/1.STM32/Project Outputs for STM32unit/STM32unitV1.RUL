@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: C:\Users\17122\Desktop\教学仪器\PCB\1.STM32-主控单元\STM32unit\STM32unitV1.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_GND|Scope=Board|Minimum=5.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

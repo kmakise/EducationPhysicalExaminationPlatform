@@ -1,0 +1,41 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\17122\Desktop\教学仪器\PCB\2.体温-温湿度-光照\GY-BH-DHT\SensorGroupA.PcbDoc
+Date     : 2021/1/13
+Time     : 20:12:18
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Via (62.103mm,72.644mm) from Top Layer to Bottom Layer And Pad D6-1(63.246mm,53.086mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (61.214mm,83.185mm) from Top Layer to Bottom Layer And Pad LED1-2(62.484mm,99.568mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VCC_5V_S Between Via (46.419mm,80.582mm) from Top Layer to Bottom Layer And Pad P5-6(51.562mm,99.568mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net VCC_5V_S Between Via (47.625mm,52.959mm) from Top Layer to Bottom Layer And Pad P6-1(51.562mm,74.168mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net VCC_3V3 Between Track (84.455mm,104.267mm)(85.589mm,104.267mm) on Top Layer And Via (88.265mm,79.629mm) from Top Layer to Bottom Layer 
+Rule Violations :5
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.127mm) (Max=2.54mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 5
+Waived Violations : 0
+Time Elapsed        : 00:00:01

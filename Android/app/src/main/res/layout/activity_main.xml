@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/people_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <!--  非折线动画  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+                <!--  测距压力  -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <!--  测距  -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginTop="30dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/length_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0cm"
+                            android:textColor="#FFF"
+                            android:textSize="23dp"
+                            android:layout_gravity="center"
+                            />
+
+                        <com.zkk.view.rulerview.RulerView
+                            android:id="@+id/length"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="24.0dip"
+                            app:alphaEnable="true"
+                            app:textSize="20dp"
+                            app:lineColor="#FFF"
+                            app:lineMaxHeight="40dp"
+                            app:lineMidHeight="30dp"
+                            app:lineMinHeight="20dp"
+                            app:lineSpaceWidth="5dp"
+                            app:lineWidth="2dip"
+                            app:textColor="#FFF"
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <!--  压力  -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:id="@+id/pressure_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0kg"
+                            android:textSize="23dp"
+                            android:textColor="#FFF"
+                            android:layout_gravity="center"
+                            />
+                        <com.zkk.view.rulerview.RulerView
+                            android:id="@+id/pressure"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="24.0dip"
+                            app:alphaEnable="true"
+                            app:lineColor="#FFF"
+                            app:lineMaxHeight="40dp"
+                            app:lineMidHeight="30dp"
+                            app:lineMinHeight="20dp"
+                            app:lineSpaceWidth="10dp"
+                            app:lineWidth="2dip"
+                            app:textColor="#FFF"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <!--  其他动画  -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="250dp"
+                        android:src="@drawable/line_two" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="130dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/line" />
+
+                    <RelativeLayout
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="30dp">
+
+                        <TextView
+                            android:id="@+id/people_temperature_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="0°C"
+                            android:textColor="#FFFF00"
+                            android:textSize="36dp" />
+
+                        <com.xpf.ch340_host.UI.CirclePercentView
+                            android:id="@+id/people_temperature"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center_horizontal"
+                            app:circleBgColor1="@color/gray_cfcfcf"
+                            app:circleIsGradient1="true"
+                            app:circleProgressColor1="@color/black_3A3D4E" />
+
+                    </RelativeLayout>
+                    <!--  人体非接触测温  -->
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <!--  烟雾报警  -->
+                        <ImageView
+                            android:id="@+id/fas"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="400dp"
+                            android:src="@drawable/fas" />
+
+                        <!--  心率动画  -->
+                        <ImageView
+                            android:id="@+id/heart_img"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="250dp"
+                            android:layout_marginRight="130dp"
+                            android:src="@drawable/heart" />
+
+                        <TextView
+                            android:id="@+id/heart_show"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="530dp"
+                            android:layout_marginTop="260dp"
+                            android:text="心率:"
+                            android:textColor="@color/Red"
+                            android:textSize="18dp"
+
+                            />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/heart_show"
+                            android:layout_marginLeft="450dp"
+                            android:layout_marginTop="10dp"
+                            >
+
+                            <TextView
+                                android:id="@+id/show_one"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15dp"
+                                android:text="正常心率范围"
+                                android:textColor="#33FF66"
+                                android:textStyle="bold"
+                                android:layout_centerHorizontal="true"
+                                />
+
+
+                            <TextView
+                                android:layout_below="@id/show_one"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15dp"
+                                android:text="(60-100)次/分钟"
+                                android:textColor="#33FF66"
+                                android:textStyle="bold"
+                                android:layout_centerHorizontal="true"
+                                />
+
+
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/heart_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginTop="260dp"
+                            android:layout_toRightOf="@id/heart_show"
+                            android:text="60"
+                            android:textColor="#FFF"
+                            android:textSize="20dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="220dp">
+
+                        <TextView
+                            android:id="@+id/blood_oxygen_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="0%"
+                            android:textColor="#FF2D2D"
+                            android:textSize="30dp" />
+
+                        <com.xpf.ch340_host.UI.CirclePercentView
+                            android:id="@+id/blood_oxygen"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_gravity="center_horizontal"
+                            app:circleBgColor1="@color/gray_cfcfcf"
+                            app:circleIsGradient1="true"
+                            app:circleProgressColor1="@color/black_3A3D4E" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="28dp"
+                        android:text="血氧饱和度"
+                        android:textColor="#FFF"
+                        android:textSize="23dp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/bmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="35dp"
+                        android:text=""
+                        android:textColor="@color/Red"
+                        android:textSize="23dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="240dp"
+                        android:layout_marginTop="280dp"
+                        android:text="人体非接触测温"
+                        android:textColor="#FFF"
+                        android:textSize="23dp"
+                        android:textStyle="bold|italic" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+            <!--  亮度监测  -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                >
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/light"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:id="@+id/light_show_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="亮度:"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="40dp"
+                    android:textColor="#FFF"
+                    android:textSize="13dp"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <!--  血氧相关  -->
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/heart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+            </RelativeLayout>
+
+            <!--  环境温湿度  -->
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/environmental"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/wendu_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="温度:"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#FFF"
+        android:textSize="13dp"
+        />
+
+
+    <TextView
+        android:id="@+id/shidu_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="温度:"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="100dp"
+        android:textColor="#FFF"
+        android:textSize="13dp"
+        />
+
+
+</RelativeLayout>

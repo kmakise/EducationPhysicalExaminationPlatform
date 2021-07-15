@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=ADDR Pin=J1-2
+Added Pin To Net: NetName=ADDR Pin=P6-5
+Added Pin To Net: NetName=ADDR Pin=U1-2
+Added Net: Name=ADDR

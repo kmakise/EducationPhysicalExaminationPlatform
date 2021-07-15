@@ -1,0 +1,16 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=..\0.底板\blank\blank.PrjPcb
+[Project2]
+ProjectPath=..\0.底板\MultiBoard_Project\MultiBoard_Project.PrjMbd
+[Project3]
+ProjectPath=..\2.GP-MAX-MQ\GP-MAX-MQ.PrjPcb
+[Project4]
+ProjectPath=STM32unit\STM32unit.PrjPcb
+[Project5]
+ProjectPath=..\3.GY-BH-DHT\GY-BH-DHT.PrjPcb
+[Project6]
+ProjectPath=..\4.ESP-IOT\ESP-IOT.PrjPcb
+[Project7]
+ProjectPath=..\..\..\手持流量计\Hardware\Ores3000.PrjPcb

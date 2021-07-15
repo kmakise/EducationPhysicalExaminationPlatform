@@ -1,0 +1,27 @@
+Added Component: Designator=P35(HDR2.54-LI-4P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P36(HDR2.54-LI-4P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P37(HDR2.54-LI-4P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P35-1
+Added Pin To Net: NetName=GND Pin=P35-2
+Added Pin To Net: NetName=GND Pin=P35-3
+Added Pin To Net: NetName=GND Pin=P35-4
+Added Pin To Net: NetName=VCC_5V_M Pin=P36-1
+Added Pin To Net: NetName=VCC_5V_M Pin=P36-2
+Added Pin To Net: NetName=VCC_5V_M Pin=P36-3
+Added Pin To Net: NetName=VCC_5V_M Pin=P36-4
+Added Pin To Net: NetName=VCC_3V3 Pin=P37-1
+Added Pin To Net: NetName=VCC_3V3 Pin=P37-2
+Added Pin To Net: NetName=VCC_3V3 Pin=P37-3
+Added Pin To Net: NetName=VCC_3V3 Pin=P37-4
+Added Member To Class: ClassName=U_1 Member=Component P35 Header 4
+Added Member To Class: ClassName=U_1 Member=Component P36 Header 4
+Added Member To Class: ClassName=U_1 Member=Component P37 Header 4

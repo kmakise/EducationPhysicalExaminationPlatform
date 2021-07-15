@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\17122\Desktop\½ÌÑ§ÒÇÆ÷\PCB\4.ESP-IOT\ESP12Fuint.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=esp12fuint-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=esp12fuint-slotholes.txt|DrillLayers=gtl,gbl

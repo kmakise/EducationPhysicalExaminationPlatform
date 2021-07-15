@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=VCC_PW Pin=P17-1
+Removed Pin From Net: NetName=VCC_5V Pin=P17-2
+Removed Pin From Net: NetName=3V3 Pin=P17-3
+Removed Pin From Net: NetName=GND Pin=P17-4
+Added Pin To Net: NetName=GND Pin=P17-1
+Added Pin To Net: NetName=3V3 Pin=P17-2
+Added Pin To Net: NetName=VCC_5V Pin=P17-3
+Added Pin To Net: NetName=VCC_PW Pin=P17-4

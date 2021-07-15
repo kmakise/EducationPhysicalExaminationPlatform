@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [GP-MAX-MQ.PrjPcb]
+   Generated File[SensorGroupB.GTO]
+   Generated File[SensorGroupB.GTP]
+   Generated File[SensorGroupB.GTS]
+   Generated File[SensorGroupB.GTL]
+   Generated File[SensorGroupB.GBL]
+   Generated File[SensorGroupB.GBS]
+   Generated File[SensorGroupB.GBP]
+   Generated File[SensorGroupB.GBO]
+   Generated File[SensorGroupB.GKO]
+   Generated File[SensorGroupB.RUL]
+   Generated File[SensorGroupB.EXTREP]
+   Generated File[SensorGroupB.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 15:47:45 On 2021/1/14

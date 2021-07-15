@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ESP-IOT.PrjPcb]
+   Generated File[ESP12Fuint-RoundHoles.TXT]
+   Generated File[ESP12Fuint-SlotHoles.TXT]
+   Generated File[ESP12Fuint.LDP]
+   Generated File[ESP12Fuint.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 15:29:51 On 2021/1/15

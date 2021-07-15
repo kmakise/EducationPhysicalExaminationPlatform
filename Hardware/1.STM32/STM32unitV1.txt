@@ -1,0 +1,270 @@
+Board Information Report
+Filename     : C:\Users\17122\Desktop\教学仪器\PCB\1.STM32-主控单元\STM32unit\STM32unitV1.PcbDoc
+Date         : 2021/1/8
+Time         : 13:16:20
+Time Elapsed : 00:00:01
+
+General
+    Board Size, 206mmx142mm
+    Components on board, 234
+count : 2
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 692
+    Connections routed, 692
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Top Layer, 0, 617, 0, 2739, 0, 0, 65, 0
+    Bottom Layer, 0, 0, 0, 732, 0, 0, 11, 0
+    Mechanical 1, 2, 0, 0, 0, 0, 0, 0, 36
+    Mechanical 8, 0, 0, 0, 0, 0, 0, 0, 2
+    Mechanical 13, 1742, 0, 0, 32, 0, 0, 0, 225
+    Mechanical 15, 169, 0, 0, 370, 0, 0, 0, 0
+    Multi-Layer, 0, 309, 892, 0, 0, 0, 1, 0
+    Top Paste, 0, 4, 0, 0, 0, 0, 0, 0
+    Top Overlay, 40, 0, 0, 2114, 683, 42, 0, 0
+    Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Overlay, 0, 0, 0, 4, 0, 0, 0, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 4, 0, 0, 4, 0, 0, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+count : 16
+
+Drill Pairs, Vias
+    Top Layer - Bottom Layer, 892
+count : 1
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Top Layer, 36.196, 23351.938, 80%
+    Bottom Layer, 41.461, 26749.029, 92%
+count : 2
+
+Non-Plated Hole Size, Pads, Vias
+    0.75mm, 2, 0
+count : 1
+
+Plated Hole Size, Pads, Vias
+    0mm, 614, 0
+    0.3mm, 0, 862
+    0.6mm, 2, 0
+    0.711mm, 0, 30
+    0.85mm, 2, 0
+    0.9mm, 202, 0
+    1.1mm, 84, 0
+    1.2mm, 2, 0
+    1.27mm, 2, 0
+    5.2mm, 4, 0
+count : 10
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+    23.622mil / 51.181mil, 2
+    31.496mil / 55.118mil, 2
+    31.496mil / 62.991mil, 1
+    31.496mil / 62.993mil, 1
+    31.496mil / 118.11mil, 1
+    31.496mil / 98.425mil, 1
+    31.496mil / 118.11mil, 1
+count : 7
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    0mm, 2
+    0.3mm, 862
+    0.4mm, 4
+    0.42mm, 2
+    0.559mm, 30
+    0.6mm, 144
+    0.7mm, 8
+    0.7mm, 2
+    0.8mm, 48
+    0.9mm, 2
+    0.9mm, 84
+    1.15mm, 2
+    1.2mm, 1
+    1.2mm, 1
+    1.3mm, 2
+    3.2mm, 1
+    3.81mm, 2
+    6.8mm, 4
+count : 18
+
+Mid Layer Annular Ring Size, Count
+    0mm, 2
+    0.3mm, 862
+    0.4mm, 4
+    0.42mm, 2
+    0.559mm, 30
+    0.6mm, 144
+    0.7mm, 8
+    0.7mm, 2
+    0.8mm, 48
+    0.9mm, 2
+    0.9mm, 84
+    1.15mm, 2
+    1.2mm, 1
+    1.2mm, 1
+    1.3mm, 2
+    3.2mm, 1
+    3.81mm, 2
+    6.8mm, 4
+count : 18
+
+Bottom Layer Annular Ring Size, Count
+    0mm, 2
+    0.3mm, 862
+    0.4mm, 4
+    0.42mm, 2
+    0.559mm, 30
+    0.6mm, 144
+    0.7mm, 8
+    0.7mm, 2
+    0.8mm, 48
+    0.9mm, 2
+    0.9mm, 84
+    1.15mm, 2
+    1.2mm, 1
+    1.2mm, 1
+    1.3mm, 2
+    3.2mm, 1
+    3.81mm, 2
+    6.8mm, 4
+count : 18
+
+Pad Solder Mask, Count
+    0.1016mm, 930
+count : 1
+
+Pad Paste Mask, Count
+    0mm, 930
+count : 1
+
+Pad Pwr/Gnd Expansion, Count
+    0.508mm, 930
+count : 1
+
+Pad Relief Conductor Width, Count
+    0.254mm, 930
+count : 1
+
+Pad Relief Air Gap, Count
+    0.254mm, 930
+count : 1
+
+Pad Relief Entries, Count
+    4, 930
+count : 1
+
+Via Solder Mask, Count
+    0.0254mm, 892
+count : 1
+
+Via Pwr/Gnd Expansion, Count
+    0.508mm, 892
+count : 1
+
+Track Width, Count
+    0.0254mm, 50
+    0.05mm, 292
+    0.1mm, 52
+    0.127mm, 50
+    0.129mm, 2
+    0.15mm, 4
+    0.1524mm, 820
+    0.2mm, 408
+    0.2032mm, 435
+    0.254mm, 3514
+    0.3048mm, 1
+    0.35mm, 1
+    0.381mm, 2
+    0.6mm, 16
+    0.8mm, 326
+    2mm, 6
+    2.54mm, 16
+count : 17
+
+Arc Line Width, Count
+    0.0254mm, 25
+    0.05mm, 144
+    0.1mm, 1
+    0.127mm, 2
+    0.129mm, 1
+    0.15mm, 1
+    0.2mm, 1762
+    0.2032mm, 4
+    0.25mm, 8
+    0.254mm, 7
+    0.5mm, 1
+    0.6mm, 1
+count : 12
+
+Arc Radius, Count
+    0.1016mm, 1
+    0.1136mm, 1
+    0.125mm, 8
+    0.127mm, 25
+    0.1545mm, 1
+    0.2016mm, 1
+    0.3mm, 1
+    0.35mm, 144
+    0.3592mm, 1
+    0.381mm, 2
+    0.5mm, 4
+    0.508mm, 2
+    1.1903mm, 16
+    2.2468mm, 1
+    2.325mm, 2
+    2.3899mm, 1
+    3mm, 1740
+    4.6mm, 1
+    7mm, 2
+    7mm, 2
+    10.8509mm, 1
+count : 21
+
+Arc Degrees, Count
+    45, 1
+    90, 6
+    100, 16
+    180, 2
+    182, 2
+    360, 1930
+count : 6
+
+Text Height, Count
+    1.27mm, 2
+    1.524mm, 470
+    2mm, 2
+    2.3mm, 2
+    2.54mm, 169
+    3mm, 7
+    3.5mm, 29
+    4mm, 1
+    5mm, 1
+count : 9
+
+Text Width, Count
+    0.1016mm, 2
+    0.1524mm, 4
+    0.254mm, 677
+count : 3
+
+Net Track Width, Count
+    0.127mm, 216
+count : 1
+
+Net Via Size, Count
+    0.6mm, 216
+count : 1

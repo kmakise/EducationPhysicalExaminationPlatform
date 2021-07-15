@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=C1-2
+Added Component: Designator=LED1(0603-led)
+Added Component: Designator=LED2(0603-led)
+Added Component: Designator=LED3(0603-led)
+Added Component: Designator=R9(0603)
+Added Component: Designator=R10(0603)
+Added Component: Designator=R11(0603)
+Added Pin To Net: NetName=VCC_5V_S Pin=C1-2
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=GND Pin=LED2-2
+Added Pin To Net: NetName=GND Pin=LED3-2
+Added Pin To Net: NetName=VCC_5V_S Pin=R9-2
+Added Pin To Net: NetName=VCC_5V_S Pin=R10-2
+Added Pin To Net: NetName=VCC_5V_S Pin=R11-2
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetD5_2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R9-1
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=R10-1
+Added Net: Name=NetLED2_1
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-1
+Added Pin To Net: NetName=NetLED3_1 Pin=R11-1
+Added Net: Name=NetLED3_1
+Added Member To Class: ClassName=GYBHDHT Member=Component LED1 LED3
+Added Member To Class: ClassName=GYBHDHT Member=Component LED2 LED3
+Added Member To Class: ClassName=GYBHDHT Member=Component LED3
+Added Member To Class: ClassName=GYBHDHT Member=Component R9 10K
+Added Member To Class: ClassName=GYBHDHT Member=Component R10 10K
+Added Member To Class: ClassName=GYBHDHT Member=Component R11 10K

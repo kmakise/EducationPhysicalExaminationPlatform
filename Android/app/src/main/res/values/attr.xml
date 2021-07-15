@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- xy坐标轴颜色 -->
+    <attr name="xylinecolor" format="color" />
+    <!-- xy坐标轴宽度 -->
+    <attr name="xylinewidth" format="dimension" />
+    <!-- xy坐标轴文字颜色 -->
+    <attr name="xytextcolor" format="color" />
+    <!-- xy坐标轴文字大小 -->
+    <attr name="xytextsize" format="dimension" />
+    <!-- 折线图中折线的颜色 -->
+    <attr name="linecolors" format="color" />
+    <!-- x轴各个坐标点水平间距 -->
+    <attr name="interval" format="dimension" />
+    <!-- 背景颜色 -->
+    <attr name="bgcolor" format="color" />
+    <!--是否在ACTION_UP时，根据速度进行自滑动，建议关闭，过于占用GPU-->
+    <attr name="isScroll" format="boolean" />
+
+    <declare-styleable name="CardiogView">
+        <attr name="distanceX" format="dimension|reference"/>
+        <attr name="linecolor" format="color|reference"/>
+        <attr name="startY" format="float"/>
+        <attr name="endY" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="chartView">
+        <attr name="xylinecolor" />
+        <attr name="xylinewidth" />
+        <attr name="xytextcolor" />
+        <attr name="xytextsize" />
+        <attr name="linecolors" />
+        <attr name="interval" />
+        <attr name="bgcolor" />
+        <attr name="isScroll" />
+    </declare-styleable>
+
+    <declare-styleable name="PercentTextView">
+        <attr name="baseScreenHeight" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="PxBlurringView">
+        <attr name="blurRadius" format="integer"/>
+        <attr name="downsampleFactor" format="integer"/>
+        <attr name="overlayColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CirclePercentView">
+        <!--圆弧背景色-->
+        <attr name="circleBgColor1" format="reference" />
+        <!--圆弧进度条颜色-->
+        <attr name="circleProgressColor1" format="reference" />
+        <!--圆弧宽度-->
+        <attr name="circleRadius1" format="integer" />
+        <!--渐变开始颜色-->
+        <attr name="circleStartColor1" format="reference" />
+        <!--渐变结束颜色-->
+        <attr name="circleEndColor1" format="reference" />
+        <!--是否渐变-->
+        <attr name="circleIsGradient1" format="boolean" />
+    </declare-styleable>
+
+</resources>

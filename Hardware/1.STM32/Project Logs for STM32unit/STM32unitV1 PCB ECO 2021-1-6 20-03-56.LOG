@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=PA10 Pin=U8-2
+Removed Pin From Net: NetName=PA9 Pin=U8-3
+Added Component: Designator=P34(HDR2.54-LI-2x2P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PA10 Pin=P34-1
+Added Pin To Net: NetName=PA9 Pin=P34-3
+Added Pin To Net: NetName=NetP34_2 Pin=P34-2
+Added Pin To Net: NetName=NetP34_2 Pin=U8-2
+Added Net: Name=NetP34_2
+Added Pin To Net: NetName=NetP34_4 Pin=P34-4
+Added Pin To Net: NetName=NetP34_4 Pin=U8-3
+Added Net: Name=NetP34_4
+Added Member To Class: ClassName=U_4 Member=Component P34 Header 2X2

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [STM32unit.PrjPcb]
+   Generated File[STM32unitV1-RoundHoles.TXT]
+   Generated File[STM32unitV1-SlotHoles.TXT]
+   Generated File[STM32unitV1.LDP]
+   Generated File[STM32unitV1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 13:29:10 On 2021/1/8
